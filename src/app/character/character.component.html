@@ -1,0 +1,19 @@
+<ng-container *ngIf="character$ | async as character">
+  <li>
+    <a (click)="navigate(character.id)">
+      {{ labelsLocale(character.labels).value }}
+      <ng-container *ngIf="character.claims['P18'] as images">
+        <ng-container *ngIf="images[0].mainsnak.datavalue as datavalue">
+          <app-character-image [imageName]="datavalue.value"></app-character-image>
+        </ng-container>
+      </ng-container>
+    </a>
+
+    <ul *ngIf="depth < maxDepth && character.claims['P40'] as childrenProp">
+      <li *ngFor="let childProp of childrenProp">
+        <!-- TODO FILTER-->
+        <app-character [depth]="depth + 1" [locale]="locale" [maxDepth]="maxDepth" [characterId]="childProp.mainsnak.datavalue.value.id"></app-character>
+      </li>
+    </ul>
+  </li>
+</ng-container>

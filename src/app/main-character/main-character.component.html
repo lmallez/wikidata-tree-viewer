@@ -1,0 +1,9 @@
+<ng-container *ngIf="characterId$ | async as characterId">
+  <ng-container *ngIf="options$ | async as options">
+    <div class="tree aled">
+      <ul>
+        <app-character [maxDepth]="options.depth" [locale]="options.locale" [characterId]="characterId"></app-character>
+      </ul>
+    </div>
+  </ng-container>
+</ng-container>

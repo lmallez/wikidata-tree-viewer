@@ -1,0 +1,3 @@
+<ng-container *ngIf="imageUrl$ | async as imageUrl">
+  <img [src]="imageUrl.imageinfo[0].url" class="character-img">
+</ng-container>
