@@ -9,7 +9,7 @@
 
 * [Wikidata Tree Generator](https://github.com/lmallez/wikidata-tree-generator): exports in a customizable way the family trees of historical characters based on Wikidat
 
-### Improvement to come
+### Upcoming Features
 
 * view ancestors
 * add filter children
