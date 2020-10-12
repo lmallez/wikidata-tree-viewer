@@ -27,7 +27,7 @@
     "ng-bootstrap": "^1.6.3",
     "rxjs": "~6.6.0",
     "ts-md5": "^1.2.7",
-    "tslib": "^2.0.0",
+    "tslib": "^2.0.3",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
