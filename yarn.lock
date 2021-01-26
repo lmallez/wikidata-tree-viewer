@@ -1145,10 +1145,10 @@
     merge-source-map "^1.1.0"
     schema-utils "^2.7.0"
 
-"@ng-bootstrap/ng-bootstrap@~8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@ng-bootstrap/ng-bootstrap/-/ng-bootstrap-8.0.2.tgz#16bad7c4164f71cbe75cd7119dd1a3201764337a"
-  integrity sha512-LF642HhuIxMWQl96Ih3ZNDrIprmUJyuA4FWZrajX3jD0zDJt+ruChURTM4CnFTLGl9MClia8mcL/eNYayMLGFw==
+"@ng-bootstrap/ng-bootstrap@~8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@ng-bootstrap/ng-bootstrap/-/ng-bootstrap-8.0.4.tgz#bb88a466b2f84ff929fbb6d727b0f9a4d8f33704"
+  integrity sha512-EdxTwOPOtlvfnwrglPniulmzdnXdXH3lTGaGAY1HrYRvdtGg6wicRvl+BvwVE/3Qik5NPkOWMVghUHpv3evIYg==
   dependencies:
     tslib "^2.0.0"
 
