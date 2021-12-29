@@ -21,4 +21,4 @@ jobs:
         run: |
           yarn run deploy --name="${{ secrets.CI_NAME }}" --email="${{ secrets.CI_EMAIL }}"
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
