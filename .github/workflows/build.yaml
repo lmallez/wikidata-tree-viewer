@@ -6,12 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Setup Node
-        uses: actions/setup-node@v1
-        with:
-          node-version: '12'
-      - name: Install dependencies
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install
         run: |
           yarn
       - name: Build
