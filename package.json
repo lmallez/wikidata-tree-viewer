@@ -24,7 +24,7 @@
     "@ng-bootstrap/ng-bootstrap": "^11.0.0",
     "bootstrap": "~4.6.0",
     "css3-family-tree": "gist:d9ae0184a9e327f78abbf2d3ca7da666",
-    "rxjs": "~6.6.7",
+    "rxjs": "~7.5.5",
     "ts-md5": "~1.2.7",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
