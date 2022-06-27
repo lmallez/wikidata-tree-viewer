@@ -122,5 +122,8 @@
       }
     }
   },
-  "defaultProject": "wikidata-tree-viewer"
+  "defaultProject": "wikidata-tree-viewer",
+  "cli": {
+    "analytics": false
+  }
 }
