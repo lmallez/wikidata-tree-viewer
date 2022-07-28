@@ -34,7 +34,7 @@
     "@angular-devkit/build-angular": "~14.0.3",
     "@angular/cli": "~14.0.4",
     "@angular/compiler-cli": "~14.0.3",
-    "@types/node": "^18.0.1",
+    "@types/node": "^18.6.2",
     "codelyzer": "^6.0.0",
     "ts-node": "~10.8.2",
     "tslint": "~6.1.0",
