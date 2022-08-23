@@ -26,7 +26,7 @@
     "css3-family-tree": "gist:d9ae0184a9e327f78abbf2d3ca7da666",
     "popper.js": "^1.16.1",
     "rxjs": "~7.5.6",
-    "ts-md5": "~1.2.7",
+    "ts-md5": "~1.3.1",
     "tslib": "^2.4.0",
     "zone.js": "~0.11.8"
   },
